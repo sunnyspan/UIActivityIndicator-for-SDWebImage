@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
   s.license       = { :type => 'MIT License', :file => 'LICENSE.txt' }
   s.author        = { "Giacomo Saccardo" => "gsaccardo@gmail.com" }
   s.source        = { :git => "https://github.com/JJSaccolo/UIActivityIndicator-for-SDWebImage.git", :tag => "1.2" }
-  s.platform      = :ios, '5.0'
+  s.platform      = :ios, '8.0'
   s.source_files  = '*.{h,m}'
   s.requires_arc  = true
-  s.dependency 'SDWebImage', '~> 3.7'
+  s.dependency 'SDWebImage', '~> 4.0'
 end
